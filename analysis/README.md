@@ -1,0 +1,1 @@
+These iPython Notebooks analyse the npm data and produce aggregate data, some of which is used in http://npmbynumbers.bocoup.com.
