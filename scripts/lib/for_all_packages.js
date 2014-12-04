@@ -34,6 +34,6 @@ module.exports = function(fn, output, rows, transform) {
     console.log("writing file");
     csv()
       .from(rows)
-      .to(fs.createWriteStream("data/" + output));
+      .to(fs.createWriteStream("data/aggregate/" + output));
   });
 };
